@@ -1,0 +1,10 @@
+/* privacy.css */
+
+main p {
+    line-height: 1.6;
+}
+
+main p::first-letter {
+    font-size: 150%;
+}
+  

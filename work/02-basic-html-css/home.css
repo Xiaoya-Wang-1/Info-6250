@@ -1,0 +1,22 @@
+/* home.css */
+
+.types-of-cat {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border: 3px solid darkgray;
+    padding: 1rem;
+    list-style-type: "\1F431";
+}
+
+.types-of-cat li{
+    width: max-content;
+    line-height: 2rem;
+}
+
+.types-of-cat a{
+    color: navy;
+    padding-left: 0.1rem;
+}

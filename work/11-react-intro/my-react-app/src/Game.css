@@ -1,0 +1,77 @@
+.gamepage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 1px solid #aaa;
+    padding: 3rem;
+    border-radius: 0.25rem;
+}
+
+.logoutbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    border: #aaa solid 1px;
+    width: 100%;
+    padding: 1.5rem 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.logout{
+    align-self: flex-start;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    background-color: darkseagreen;
+    border: #aaa solid 1px;
+    border-radius: 10%;
+    font-size: 1rem;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.game form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+}
+
+.game input{
+    margin-left: 0.5rem;
+    height: 1.7rem;
+    padding: 0.6rem;
+}
+
+
+.game .results {
+    color: red;
+    margin-top: 0.5rem;
+}  
+
+.game input{
+    margin-left: 0.5rem;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+}

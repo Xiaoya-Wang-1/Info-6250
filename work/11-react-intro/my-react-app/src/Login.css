@@ -1,0 +1,38 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #aaa;
+    padding: 3.5rem;
+    border-radius: 0.25rem;
+    margin-top: 6rem;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.login input{
+    margin-left: 0.5rem;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.login button{
+    padding: 0.5rem 1.3rem;
+    background-color: darkseagreen;
+    border: #aaa solid 1px;
+    border-radius: 10%;
+    font-size: 1rem;
+}
+
+.login-error {
+    color: red;
+    margin-top: 0.5rem;
+}

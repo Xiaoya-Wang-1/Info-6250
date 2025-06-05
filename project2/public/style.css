@@ -1,0 +1,176 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-rows:auto 1fr;
+}
+
+header {
+    width: 100%;
+    grid-row: 1/span 1;
+    background-color:cadetblue;
+}
+
+main {
+    width: 100%;
+    grid-row: 2/span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #eee;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5rem;
+    gap: 1rem;
+    background: white;
+    margin-top: 2rem;
+}
+
+.chat-container{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 60%;
+    min-height: 50%;
+    padding: 3rem 5rem;
+    gap: 2rem;
+    background: white;
+    margin-top: 2rem;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: max-content;
+    padding-top: 0.6rem;
+    background:#f9f9f9;
+    padding-bottom: 0.6rem;
+}
+
+.navigation h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navigation button{
+    margin-left: 1rem;
+}
+
+button {
+    padding: 0.7rem 1.2rem;
+    background-color:cadetblue;
+    border:none;
+    border-radius:0.3rem;
+}
+
+input{
+   height: 1.5rem;
+}
+
+select {
+    padding: 0.25rem;
+    box-sizing: content-box;
+}
+
+#login-form{
+    text-align: center;
+}
+
+.user-list {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.user-block{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+
+.chat-block{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 100%;
+}
+
+#message-list-section{
+    height: 80%;
+    background: #f9f9f9;
+    padding: 1rem
+}
+
+.message-item {
+    display: flex;
+    text-align: left;
+    align-items: flex-start; 
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    max-width: 100%;
+}
+
+.author {
+    white-space: nowrap;
+    margin-right: 0.5rem;
+}
+
+.message-text {
+    flex: 1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+  
+.message-list {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-y: auto;
+    background: #f9f9f9;
+}
+
+
+.error {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.loading-indicator {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+
+.app-visible #initial-loading {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 800px) {
+    body {
+    overflow-x: hidden;
+    }
+}

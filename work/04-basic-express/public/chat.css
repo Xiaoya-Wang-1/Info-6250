@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#chat-app {
+    display: grid;
+    grid-template-areas:
+    "users-list messages"
+    "outgoing outgoing";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 20%;
+    height: 100vh;
+}
+
+/* User list */
+.users-list{
+    grid-area: users-list;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    margin: 0;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+.user {
+    margin-bottom: 1rem;
+}
+
+/* Message list*/
+.messages {
+    grid-area: messages;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+/* Each message row */
+.message {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+    .message {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+.messages-details {
+    width: 100%;
+}
+
+.sender-info {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.username {
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+.message-text {
+    margin: 0;
+    padding-top: 0.2rem;
+    flex-grow: 1;
+    width: max-content;
+}
+
+.message-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+.timestamp {
+    font-size: 0.8rem; 
+    color: #666;  
+    margin-top: 0.25rem;
+}
+  
+
+/* Outgoing form */
+.outgoing {
+    width: 100%;
+    grid-area: outgoing;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outgoing form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    gap: 0.5rem;
+}
+
+.outgoing button{
+    height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.outgoing input{
+    height: 1.5rem;
+}
+
+.outgoing select{
+    height: 1.5rem;   
+}
+

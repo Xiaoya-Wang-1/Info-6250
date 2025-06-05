@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows:10% 1fr;
+  grid-row: 2/span 1;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+  
+header {
+  width: 100%;
+  grid-row: 1/span 1;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+  
+main {
+  grid-row: 2/span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+  
+button {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  background-color:rgba(193, 221, 238, 0.737);
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.change-button,
+.login-button{
+  margin-left: 0.5rem;
+}
+
+.logout-button,
+.return-home{
+  margin-top: 1rem;
+}
+
+label {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.word-input,
+.uername-input{
+  margin-bottom: 0.5rem;
+  height: 1.75rem;
+  font-size: 1rem;
+}
+  
+.stored-word-section,
+.logout-section {
+  margin-top: 1rem;
+}
+
+.word-form{
+  margin-top: 1rem;
+}
+
+/* error page */
+.error-title{
+  color: red;
+}
+
+.return-box{
+  margin-top: 1rem;
+}
+
+.return-home {
+  color: #06f;
+  text-decoration: none;
+}
+
+h2{
+  margin-bottom: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}  

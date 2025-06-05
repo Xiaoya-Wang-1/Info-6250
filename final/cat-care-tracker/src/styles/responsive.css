@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    .login-page,
+    .register-page,
+    .main-page {
+      padding: 1rem;
+    }
+  
+    .navigation {
+      flex-direction: column;
+    }
+  
+    .preview-container {
+      width: 80%;
+    }
+  
+    button {
+      padding: 0.3rem 1rem;
+    }
+  
+    .preview-image {
+      height: auto;
+    }
+}
+  
+@media (min-width: 601px) and (max-width: 1024px) {
+    .preview-container {
+        width: 60%;
+    }
+}
+  
+@media (min-width: 1025px) {
+    .preview-container {
+        width: 40%;
+    }
+
+    .task-section {
+        width: 80%;
+    }
+
+    .cat-item {
+        padding-left: 5rem;
+    }
+}

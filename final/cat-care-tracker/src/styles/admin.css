@@ -1,0 +1,44 @@
+.admin-page .navigation{
+    background-color:white;
+    padding: 1rem 2rem;
+    border: #ccc solid 1px;
+}
+
+.registered-user{
+    padding: 1rem;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.user-list-header,
+.user-list-item {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.user-list-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-list-item {
+    border-bottom: 1px solid #eee;
+}
+
+.user-list-item:last-child {
+    border-bottom: none;
+}
+
+.user-list .col-op button {
+    cursor: pointer;
+}

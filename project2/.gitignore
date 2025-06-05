@@ -1,0 +1,10 @@
+node_modules/
+
+.vscode/
+
+.DS_Store
+
+.target/
+
+bundle.js
+bundle.js.map
