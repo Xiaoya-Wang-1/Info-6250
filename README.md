@@ -24,13 +24,16 @@ This course covers web-development fundamentals and their modern extensions. Usi
 ---
 
 ## 3 · Repository Layout
-├── README.md ← ✌🏻 You are here
-├── [setup-for-this-class.md](setup-for-this-class.md) ← 🔨 Environment & tooling setup
-├── [do-not-copy-work.md](do-not-copy-work.md) ← 👀 Academic integrity policy
-├── [syllabus.md](syllabus.md) ← 📆 Weekly schedule & grading rubric
-├── [work/](work/) ← 📥 Weekly assignments
-├── [classes/](classes/) ← 🗒️ Slide decks
-├── [samples/](samples/) ← 💡 example code
-├── [project1/](project1/) ← 😎 Major Project 1
-├── [project2/](project2/) ← 🧐 Major Project 2
-└── [final/](final/) ← 🥳Capstone project
+
+| Path | Purpose |
+|------|---------|
+| `README.md` | ✌🏻 You are here |
+| [`setup-for-this-class.md`](./setup-for-this-class.md) | 🔨 Environment & tooling setup |
+| [`do-not-copy-work.md`](./do-not-copy-work.md) | 👀 Academic integrity policy |
+| [`syllabus.md`](./syllabus.md) | 📆 Weekly schedule & grading rubric |
+| [`work/`](./work/) | 📥 Weekly assignments |
+| [`classes/`](./classes/) | 🗒️ Slide decks |
+| [`samples/`](./samples/) | 💡 Example code |
+| [`project1/`](./project1/) | 😎 Major Project 1 |
+| [`project2/`](./project2/) | 🧐 Major Project 2 |
+| [`final/`](./final/) | 🥳 Capstone project |
