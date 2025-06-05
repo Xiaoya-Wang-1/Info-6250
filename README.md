@@ -1,8 +1,8 @@
-# INFO6250 - Web Development: Tools and Methods
+# Web Development: Tools and Methods - Course Repository
 
 > This repository is my assignments and projects.
 
-Welcome! This **my  GitHub repository** contains **every lab, assignment, and project** I build for INFO 6250. Beyond grading, it serves as my personal portfolio.
+Welcome! This **my  GitHub repository** contains **every lab, assignment, and project** I build. Beyond grading, it serves as my personal portfolio.
 
 ---
 
